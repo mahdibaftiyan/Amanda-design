@@ -1,0 +1,111 @@
+
+
+#home {
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    width: 40vw;
+    font-size: 1.5rem;
+    font-family: sahel;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#home .baner-main {
+    width: 50vw;
+
+}
+
+#home .baner-main img {
+    width: 100%;
+}
+
+#home .baner {
+    width: 40vw;
+
+}
+
+#home .baner img {
+    width: 100%;
+}
+
+.btn {
+    text-align: center;
+    margin: 1.4rem auto;
+    background-color: var(--bg-title-color);
+    transition: var(--transition);
+    padding: .7rem 1.5rem;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none;
+    color: var(--color-btn);
+    font-size: 1.2rem;
+    font-family: vazir;
+}
+
+.btn:hover {
+    background-color: var(--hover-color);
+}
+
+.text-par {
+    margin: 2rem 0;
+    width: 50vw;
+    text-align: center;
+}
+
+.par {
+    width: 30vw;
+    margin: 1rem auto;
+    color: var(--text-color);
+    line-height: 1.6rem;
+    font-family: samim;
+}
+
+.gallery {
+    width: 30vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.card {
+    width: 100%;
+    background-color: var(--bg-card);
+    padding: 3rem 0;
+    margin: 2rem 0;
+    text-align: center;
+}
+
+.testimonial {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: tanha;
+    color: var(--testimonail);
+    font-size: .8rem;
+    text-align: center;
+}
+
+.testimonial-name {
+    margin: 1.5rem;
+    font-size: .9rem;
+}
+.testimonial-text{
+    line-height: 1.5rem;
+}

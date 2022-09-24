@@ -1,0 +1,153 @@
+/* body {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 6;
+
+} */
+
+/* header navigation */
+#header {
+    width: 100%;
+    position: fixed;
+    top: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#navigation {
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    padding: 1rem;
+    height: 80px;
+    z-index: 10;
+    background-color: var(--color-btn);
+
+
+}
+
+/* nav logo */
+#navigation .logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 50px;
+}
+
+#navigation .logo img {
+    width: 200px;
+    height: 100%;
+}
+
+
+.label svg {
+    font-size: 1.5rem;
+}
+
+/* nav links  */
+#navigation .link-item {
+    width: 100%;
+    height: auto;
+    list-style: none;
+    text-align: right;
+    transform: translateY(-300px);
+    transition: var(--transition);
+    visibility: hidden;
+}
+
+#navigation .link-item .link-items {
+    margin: .4rem 3rem;
+    padding: .3rem;
+}
+
+#navigation .link-item .link-items .link {
+    color: var(--color-link);
+    font-family: sahel;
+}
+
+.link:focus,
+.link:hover {
+    text-decoration: block;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+
+}
+
+#footer {
+    width: 100%;
+    margin-top: 3rem;
+    background-color: var(--bg-card);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#footer .Guide {
+    color: var(--color-link);
+    font-size: 1.3rem;
+    font-family: samim;
+    margin: 2rem 0;
+
+}
+
+#footer .link-item {
+    list-style: none;
+    width: 100%;
+    padding: 1rem;
+
+
+}
+
+#footer .link-item .link-items {
+    margin: 1rem 0;
+}
+
+#footer .link-item .link-items .link {
+    color: var(--color-link);
+    font-family: samim;
+    text-decoration: block;
+    text-decoration: underline;
+
+}
+
+.link:focus,
+.link:hover {
+    text-underline-offset: 7px;
+
+}
+
+#footer label{
+    text-align: right;
+    color: var(--color-link);
+    font-size: 1.2rem;
+    font-family: samim;
+}
+#footer input{
+    width: 300px;
+    display: block;
+    margin: .5rem 0;
+    padding: 1rem .5rem; 
+    color: var(--color-link);
+    background-color: var(--input-color);
+    border: none;
+    font-size: .8rem;
+}
+.icons{
+    margin: 2rem 0;
+}
+.icons svg{
+    font-size: 1.4rem;
+    margin: 0 .7rem;
+}
+
+/* #main */
+#main {
+    margin: 0 auto;
+}
+

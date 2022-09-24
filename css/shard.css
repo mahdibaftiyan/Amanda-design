@@ -1,0 +1,37 @@
+:root {
+    --color-link: #2d2e2e;
+    --color-btn: #ffffff;
+    --bg-title-color: #2e2e2e;
+    --hover-color: #d7d7d7;
+    --text-color: #2e2e2f;
+    --bg-card: #F0F0F0;
+    --input-color: #e3e3e3;
+    --testimonail: #313231;
+
+
+
+
+    
+    --transition: all .4s ease;
+
+}
+
+@font-face {
+    font-family: vazir;
+    src: url(../font/Vazirmatn-FD-Regular.ttf);
+}
+
+@font-face {
+    font-family: sahel;
+    src: url(../font/Sahel-FD.ttf);
+}
+
+@font-face {
+    font-family: samim;
+    src: url(../font/Samim-FD.ttf);
+}
+
+@font-face {
+    font-family: tanha;
+    src: url(../font/Tanha-FD.ttf);
+}
