@@ -1,11 +1,11 @@
-
-
 #home {
-    margin-top: 8rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
     align-items: center;
+    margin-top: 8rem;
 }
 
 .title {
@@ -106,6 +106,7 @@
     margin: 1.5rem;
     font-size: .9rem;
 }
-.testimonial-text{
+
+.testimonial-text {
     line-height: 1.5rem;
 }
