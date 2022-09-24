@@ -7,21 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="طراحی و دیزاین داخلی خانه و یا محل کار">
     <meta name="keywords" content="طراحی داخلی">
-    <link rel="stylesheet" href="css/reset & shard/normalize.css">
-    <link rel="stylesheet" href="css/reset & shard/shared.css">
-    <link rel="stylesheet" href="css/main.css">
-    <link rel="stylesheet" href="css/pages/home.css">
 
+    <!-- reset and main -->
+    <link rel="stylesheet" href="css/reset & shard/normalize.css">
+    <link rel="stylesheet" href="css/main.css">
+
+    <!-- pages -->
+    <link rel="stylesheet" href="css/pages/Home.css">
+    <link rel="stylesheet" href="css/pages/Services.css">
+    <link rel="stylesheet" href="css/pages/Portfolio.css">
+    <link rel="stylesheet" href="css/pages/Pricing.css">
+    <link rel="stylesheet" href="css/pages/About-Us.css">
+    <link rel="stylesheet" href="css/pages/Contact.css">
+
+    <!-- shared -->
+    <link rel="stylesheet" href="css/reset & shard/shared.css">
+
+    <!-- font cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
         integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>خانه</title>
+    <title>Home</title>
+
 </head>
 
 <body>
 
     <header id="header">
+
 
         <nav id="navigation">
 
@@ -40,31 +54,29 @@
             <input type="checkbox" id="drop" style="display: none;">
 
 
-            <!-- nav links -->
+            <!-- nav links "-->
             <ul class="link-item">
 
                 <li class="link-items">
-                    <a href="#" class="link">خانه</a>
+                    <a href="#" data-id="#Home" onclick="changePage(this)" class="link">خانه</a>
                 </li>
                 <li class="link-items">
-                    <a href="#" class="link">خدمات</a>
+                    <a href="#" data-id="#Services" onclick="changePage(this)" class="link">خدمات</a>
                 </li>
                 <li class="link-items">
-                    <a href="#" class="link">نمونه کار ها</a>
+                    <a href="#" data-id="#Portfolio" onclick="changePage(this)" class="link">نمونه کار ها</a>
                 </li>
                 <li class="link-items">
-                    <a href="#" class="link">قیمت گذاری</a>
+                    <a href="#" data-id="#Pricing" onclick="changePage(this)" class="link">قیمت گذاری</a>
                 </li>
                 <li class="link-items">
-                    <a href="#" class="link">درباره ما</a>
+                    <a href="#" data-id="#About-Us" onclick="changePage(this)" class="link">درباره ما</a>
                 </li>
                 <li class="link-items">
-                    <a href="#" class="link">تماس با ما</a>
+                    <a href="#" data-id="#Contact" onclick="changePage(this)" class="link">تماس با ما</a>
                 </li>
 
             </ul>
-
-
 
 
         </nav>
@@ -74,9 +86,7 @@
 
     <main id="main">
 
-
-
-        <section id="home">
+        <section id="Home" class="Active">
 
             <span class="title">زمانی که طراحی زیبایی را به خانه شما می آورد</span>
 
@@ -202,6 +212,25 @@
 
         </section>
 
+        <section id="Services">
+            services
+        </section>
+
+        <section id="Portfolio">
+            Portfolio
+        </section>
+
+        <section id="Pricing">
+            Pricing
+        </section>
+
+        <section id="About-Us">
+            About-Us
+        </section>
+
+        <section id="Contact">
+            Contact
+        </section>
 
 
 
@@ -213,23 +242,23 @@
         <ul class="link-item">
             <span class="Guide">ما چه کاری انجام می دهیم ؟</span>
             <li class="link-items">
-                <a href="#" class="link">خانه</a>
+                <a href="#" data-id="#Home" onclick="changePage(this)" class="link">خانه</a>
             </li>
             <li class="link-items">
-                <a href="#" class="link">خدمات</a>
+                <a href="#" data-id="#Services" onclick="changePage(this)" class="link">خدمات</a>
             </li>
             <li class="link-items">
-                <a href="#" class="link">نمونه کار ها</a>
+                <a href="#" data-id="#Portfolio" onclick="changePage(this)" class="link">نمونه کار ها</a>
             </li>
             <li class="link-items">
-                <a href="#" class="link">قیمت گذاری</a>
+                <a href="#" data-id="#Pricing" onclick="changePage(this)" class="link">قیمت گذاری</a>
             </li>
             <span class="Guide">کجا هستیم ؟</span>
             <li class="link-items">
-                <a href="#" class="link">درباره ما</a>
+                <a href="#" class="link" data-id="#About-Us" onclick="changePage(this)" class="link">درباره ما</a>
             </li>
             <li class="link-items">
-                <a href="#" class="link">تماس با ما</a>
+                <a href="#" class="link" data-id="#Contact" onclick="changePage(this)" class="link">تماس با ما</a>
             </li>
             <span class="Guide">مشترک شدن در خبرنامه ما</span>
 

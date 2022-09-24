@@ -35,3 +35,8 @@
     font-family: tanha;
     src: url(../../font/Tanha-FD.ttf);
 }
+
+.Active {
+    display: block !important;
+    display: grid !important;
+}

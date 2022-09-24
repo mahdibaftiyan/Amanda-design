@@ -110,6 +110,7 @@ body {
 
 #footer .link-item .link-items {
     margin: 1rem 0;
+    cursor: pointer;
 }
 
 #footer .link-item .link-items .link {
@@ -155,8 +156,9 @@ body {
 
 /* #main */
 #main {
+    width: 100%;
     grid-column: 1 /-1;
     grid-row: 2/3;
     margin: 0 auto;
-    width: 100%;
+    margin-top: 7rem;
 }

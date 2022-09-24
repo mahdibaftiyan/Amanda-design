@@ -1,11 +1,10 @@
-#home {
+#Home {
     width: 100%;
-    display: grid;
+    display: none;
     grid-template-columns: 1fr;
     grid-template-rows: auto;
     justify-items: center;
     align-items: center;
-    margin-top: 8rem;
 }
 
 .title {
