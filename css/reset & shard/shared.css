@@ -11,27 +11,27 @@
 
 
 
-    
+
     --transition: all .4s ease;
 
 }
 
 @font-face {
     font-family: vazir;
-    src: url(../font/Vazirmatn-FD-Regular.ttf);
+    src: url(../../font/Vazirmatn-FD-Regular.ttf);
 }
 
 @font-face {
     font-family: sahel;
-    src: url(../font/Sahel-FD.ttf);
+    src: url(../../font/Sahel-FD.ttf);
 }
 
 @font-face {
     font-family: samim;
-    src: url(../font/Samim-FD.ttf);
+    src: url(../../font/Samim-FD.ttf);
 }
 
 @font-face {
     font-family: tanha;
-    src: url(../font/Tanha-FD.ttf);
+    src: url(../../font/Tanha-FD.ttf);
 }
