@@ -153,6 +153,25 @@ body {
     font-size: 1.4rem;
     margin: 0 .7rem;
 }
+#footer .btn {
+    text-align: center;
+    margin: 1.4rem auto;
+    background-color: var(--bg-title-color);
+    transition: var(--transition);
+    padding: .7rem 1.5rem;
+    cursor: pointer;
+}
+
+#footer .btn a {
+    text-decoration: none;
+    color: var(--color-btn);
+    font-size: 1.2rem;
+    font-family: vazir;
+}
+
+#footer .btn:hover {
+    background-color: var(--hover-color);
+}
 
 /* #main */
 #main {

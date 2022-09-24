@@ -7,8 +7,8 @@
     align-items: center;
 }
 
-.title {
-    width: 40vw;
+#Home .title {
+    width: 70vw;
     font-size: 1.5rem;
     font-family: sahel;
     font-weight: bold;
@@ -16,25 +16,25 @@
     margin: 2rem 0;
 }
 
-#home .baner-main {
-    width: 50vw;
+#Home .baner-main {
+    width: 70vw;
 
 }
 
-#home .baner-main img {
+#Home .baner-main img {
     width: 100%;
 }
 
-#home .baner {
-    width: 40vw;
+#Home .baner {
+    width: 70vw;
 
 }
 
-#home .baner img {
+#Home .baner img {
     width: 100%;
 }
 
-.btn {
+#Home .btn {
     text-align: center;
     margin: 1.4rem auto;
     background-color: var(--bg-title-color);
@@ -43,45 +43,45 @@
     cursor: pointer;
 }
 
-.btn a {
+#Home .btn a {
     text-decoration: none;
     color: var(--color-btn);
     font-size: 1.2rem;
     font-family: vazir;
 }
 
-.btn:hover {
+#Home .btn:hover {
     background-color: var(--hover-color);
 }
 
-.text-par {
+#Home .text-par {
     margin: 2rem 0;
-    width: 50vw;
+    width: 70vw;
     text-align: center;
 }
 
-.par {
-    width: 30vw;
+#Home .par {
+    width: 60vw;
     margin: 1rem auto;
     color: var(--text-color);
     line-height: 1.6rem;
     font-family: samim;
 }
 
-.gallery {
-    width: 30vw;
+#Home .gallery {
+    width: 70vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-.gallery img {
+#Home .gallery img {
     width: 100%;
     margin: 1rem 0;
 }
 
-.card {
+#Home .card {
     width: 100%;
     background-color: var(--bg-card);
     padding: 3rem 0;
@@ -89,7 +89,7 @@
     text-align: center;
 }
 
-.testimonial {
+#Home .testimonial {
     width: 40vw;
     display: flex;
     flex-direction: column;
@@ -101,11 +101,12 @@
     text-align: center;
 }
 
-.testimonial-name {
+#Home .testimonial-name {
     margin: 1.5rem;
     font-size: .9rem;
+    line-height: 1.5rem;
 }
 
-.testimonial-text {
+#Home .testimonial-text {
     line-height: 1.5rem;
 }
