@@ -12,29 +12,21 @@ body {
     width: 100%;
     position: fixed;
     top: 0px;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
 }
 
 #navigation {
     width: 100%;
-    overflow: hidden;
     display: flex;
     flex-direction: column;
+    overflow: hidden;
     margin: 0 auto;
     padding: 1rem;
     height: 80px;
     z-index: 10;
     background-color: var(--color-btn);
-
-
 }
 
-/* nav logo */
 #navigation .logo {
-    display: flex;
-    align-items: center;
     justify-content: space-around;
     width: 100%;
     height: 50px;
@@ -45,12 +37,10 @@ body {
     height: 100%;
 }
 
-
 .label svg {
     font-size: 1.5rem;
 }
 
-/* nav links  */
 #navigation .link-item {
     width: 100%;
     height: auto;
@@ -66,18 +56,20 @@ body {
     padding: .3rem;
 }
 
-#navigation .link-item .link-items .link {
-    color: var(--color-link);
-    font-family: sahel;
+
+
+/* #main */
+#main {
+    width: 100%;
+    grid-column: 1 /-1;
+    grid-row: 2/3;
+    margin: 0 auto;
+    margin-top: 7rem;
 }
 
-.link:focus,
-.link:hover {
-    text-decoration: block;
-    text-decoration: underline;
-    text-underline-offset: 7px;
 
-}
+
+/* footer */
 
 #footer {
     grid-column: 1 /-1;
@@ -85,27 +77,21 @@ body {
     width: 100%;
     margin-top: 3rem;
     background-color: var(--bg-card);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
     text-align: center;
 }
 
 #footer .Guide {
+    display: block;
+    margin: 2rem 0;
     color: var(--color-link);
     font-size: 1.3rem;
     font-family: samim;
-    margin: 2rem 0;
-
 }
 
 #footer .link-item {
     list-style: none;
     width: 100%;
     padding: 1rem;
-
-
 }
 
 #footer .link-item .link-items {
@@ -121,63 +107,5 @@ body {
 
 }
 
-.link:focus,
-.link:hover {
-    text-underline-offset: 7px;
 
-}
-
-#footer label {
-    text-align: right;
-    color: var(--color-link);
-    font-size: 1.2rem;
-    font-family: samim;
-}
-
-#footer input {
-    width: 300px;
-    display: block;
-    margin: .5rem 0;
-    padding: 1rem .5rem;
-    color: var(--color-link);
-    background-color: var(--input-color);
-    border: none;
-    font-size: .8rem;
-}
-
-.icons {
-    margin: 2rem 0;
-}
-
-.icons svg {
-    font-size: 1.4rem;
-    margin: 0 .7rem;
-}
-#footer .btn {
-    text-align: center;
-    margin: 1.4rem auto;
-    background-color: var(--bg-title-color);
-    transition: var(--transition);
-    padding: .7rem 1.5rem;
-    cursor: pointer;
-}
-
-#footer .btn a {
-    text-decoration: none;
-    color: var(--color-btn);
-    font-size: 1.2rem;
-    font-family: vazir;
-}
-
-#footer .btn:hover {
-    background-color: var(--hover-color);
-}
-
-/* #main */
-#main {
-    width: 100%;
-    grid-column: 1 /-1;
-    grid-row: 2/3;
-    margin: 0 auto;
-    margin-top: 7rem;
-}
+/* Desktop */

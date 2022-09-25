@@ -34,3 +34,129 @@
     display: block !important;
     display: grid !important;
 }
+
+.flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.flexcolumn {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.link {
+    color: var(--color-link);
+    font-family: sahel;
+}
+
+.link:focus,
+.link:hover {
+    text-decoration: block;
+    text-decoration: underline;
+    text-underline-offset: 7px;
+}
+
+
+label {
+    text-align: right;
+    color: var(--color-link);
+    font-size: 1.2rem;
+    font-family: samim;
+}
+
+input {
+    width: 300px;
+    display: block;
+    margin: .5rem 0;
+    padding: 1rem .5rem;
+    color: var(--color-link);
+    background-color: var(--input-color);
+    border: none;
+    font-size: .8rem;
+}
+
+.icons {
+    margin: 2rem 0;
+}
+
+.icons svg {
+    font-size: 1.4rem;
+    margin: 0 .7rem;
+}
+
+.btn {
+    text-align: center;
+    margin: 1.4rem auto;
+    background-color: var(--bg-title-color);
+    transition: var(--transition);
+    padding: .7rem 1.5rem;
+    cursor: pointer;
+}
+
+.btn a {
+    text-decoration: none !important;
+    color: var(--color-btn);
+    font-size: 1.2rem;
+    font-family: vazir;
+}
+
+.btn:hover {
+    background-color: var(--hover-color);
+}
+
+.title {
+    width: 70vw;
+    font-size: 1.5rem;
+    font-family: sahel;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+    line-height: 2.5rem;
+}
+
+.text-par {
+    margin: 2rem 0;
+    width: 70vw;
+    text-align: center;
+}
+
+.par {
+    width: 60vw;
+    margin: 1rem auto;
+    color: var(--text-color);
+    line-height: 1.6rem;
+    font-family: samim;
+}
+
+
+/* media */
+
+.gallery {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.gallery img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+/* @media screen and(min-width: 1007px) { */
+.page {
+    width: 100%;
+    display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+
+/* } */

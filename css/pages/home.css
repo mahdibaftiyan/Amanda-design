@@ -1,25 +1,7 @@
-#Home {
-    width: 100%;
-    display: none;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-}
-
-#Home .title {
-    width: 70vw;
-    font-size: 1.5rem;
-    font-family: sahel;
-    font-weight: bold;
-    text-align: center;
-    margin: 2rem 0;
-    line-height: 2.5rem;
-}
+#Home {}
 
 #Home .baner-main {
     width: 70vw;
-
 }
 
 #Home .baner-main img {
@@ -35,53 +17,6 @@
     width: 100%;
 }
 
-#Home .btn {
-    text-align: center;
-    margin: 1.4rem auto;
-    background-color: var(--bg-title-color);
-    transition: var(--transition);
-    padding: .7rem 1.5rem;
-    cursor: pointer;
-}
-
-#Home .btn a {
-    text-decoration: none;
-    color: var(--color-btn);
-    font-size: 1.2rem;
-    font-family: vazir;
-}
-
-#Home .btn:hover {
-    background-color: var(--hover-color);
-}
-
-#Home .text-par {
-    margin: 2rem 0;
-    width: 70vw;
-    text-align: center;
-}
-
-#Home .par {
-    width: 60vw;
-    margin: 1rem auto;
-    color: var(--text-color);
-    line-height: 1.6rem;
-    font-family: samim;
-}
-
-#Home .gallery {
-    width: 70vw;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#Home .gallery img {
-    width: 100%;
-    margin: 1rem 0;
-}
-
 #Home .card {
     width: 100%;
     background-color: var(--bg-card);
@@ -89,7 +24,8 @@
     margin: 2rem 0;
     text-align: center;
 }
-#Home .card .btn{
+
+#Home .card .btn {
     width: 40%;
 }
 

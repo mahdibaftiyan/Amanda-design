@@ -8,8 +8,11 @@
     <meta name="description" content="طراحی و دیزاین داخلی خانه و یا محل کار">
     <meta name="keywords" content="طراحی داخلی">
 
-    <!-- reset and main -->
+    <!-- reset and shard -->
     <link rel="stylesheet" href="css/reset & shard/normalize.css">
+    <link rel="stylesheet" href="css/reset & shard/shared.css">
+
+    <!-- main css -->
     <link rel="stylesheet" href="css/main.css">
 
     <!-- pages -->
@@ -20,8 +23,6 @@
     <link rel="stylesheet" href="css/pages/About-Us.css">
     <link rel="stylesheet" href="css/pages/Contact.css">
 
-    <!-- shared -->
-    <link rel="stylesheet" href="css/reset & shard/shared.css">
 
     <!-- font cdn -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
@@ -37,13 +38,13 @@
 
 
 
-    <header id="header">
+    <header id="header" class="flex">
 
 
         <nav id="navigation">
 
             <!-- nav logo -->
-            <div class="logo">
+            <div class="logo flex">
 
                 <img src="images/logo.webp" alt="AMANDA PANDRIGE">
 
@@ -91,9 +92,8 @@
 
     <main id="main">
 
-
         <!--  -->
-        <section id="Home" class="Active">
+        <section id="Home" class="Active page">
 
             <span class="title">زمانی که طراحی زیبایی را به خانه شما می آورد</span>
 
@@ -219,7 +219,7 @@
 
         </section>
         <!--  -->
-        <section id="Services">
+        <section id="Services" class="page">
 
             <div class="text-par">
 
@@ -262,7 +262,7 @@
 
         </section>
         <!--  -->
-        <section id="Portfolio">
+        <section id="Portfolio" class="page">
 
 
             <div class="text-par">
@@ -280,7 +280,7 @@
 
             <span class="title">امیدواریم انگیزه بگیرید</span>
 
-            <div class="gallery">
+            <div class="gallery flex">
 
                 <div class="left">
                     <img src="images/Portfolio/left/1.jpeg" alt="image">
@@ -314,7 +314,7 @@
 
         </section>
         <!--  -->
-        <section id="Pricing">
+        <section id="Pricing" class="page">
 
 
             <div class="text-par">
@@ -352,7 +352,7 @@
 
             </div>
 
-            <div class="plan">
+            <div class="plan flexcolumn">
 
                 <span class="name-price">طرح پایه</span>
                 <span class="name-price">500$</span>
@@ -366,7 +366,7 @@
 
             </div>
 
-            <div class="plan">
+            <div class="plan flexcolumn">
 
                 <span class="name-price">طرح استاندارد</span>
                 <span class="name-price">1000$</span>
@@ -380,7 +380,7 @@
 
             </div>
 
-            <div class="plan">
+            <div class="plan flexcolumn">
 
                 <span class="name-price">طرح اختصاصی</span>
                 <span class="name-price">2500$</span>
@@ -413,7 +413,7 @@
 
         </section>
         <!--  -->
-        <section id="About-Us">
+        <section id="About-Us" class="page">
 
 
             <div class="gallery">
@@ -519,9 +519,9 @@
 
         </section>
         <!--  -->
-        <section id="Contact">
+        <section id="Contact" class="page">
 
-            <div class="text-par">
+            <div class="text-par flexcolumn">
 
                 <span class="title">
                     در تماس باشید
@@ -534,7 +534,7 @@
 
             </div>
 
-            <div class="text-box">
+            <div class="text-box flexcolumn">
 
                 <span>آدرس</span>
 
@@ -543,7 +543,7 @@
 
             </div>
 
-            <div class="text-box">
+            <div class="text-box flexcolumn">
 
                 <span>ارتباط</span>
 
@@ -552,7 +552,7 @@
 
             </div>
 
-            <div class="text-box">
+            <div class="text-box flexcolumn">
 
                 <span>ساعت کاری شرکت</span>
 
@@ -562,7 +562,7 @@
             </div>
 
 
-            <form class="contactForm">
+            <form class="contactForm flexcolumn">
 
                 <label>
                     * نام
@@ -593,12 +593,11 @@
 
         </section>
 
-
     </main>
 
 
 
-    <footer id="footer">
+    <footer id="footer" class="flexcolumn">
 
         <ul class="link-item">
             <span class="Guide">ما چه کاری انجام می دهیم ؟</span>

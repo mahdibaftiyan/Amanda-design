@@ -1,41 +1,8 @@
-#Portfolio {
-    width: 100%;
-    display: none;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto;
-    justify-items: center;
-    align-items: center;
-}
-
-#Portfolio .text-par {
-    margin: 2rem 0;
-    width: 70vw;
-    text-align: center;
-}
-
-#Portfolio .title {
-    width: 70vw;
-    font-size: 1.5rem;
-    font-family: sahel;
-    font-weight: bold;
-    text-align: center;
-    margin: 2rem 0;
-}
-
-#Portfolio .par {
-    width: 60vw;
-    margin: 1rem auto;
-    color: var(--text-color);
-    line-height: 1.6rem;
-    font-family: samim;
-}
-
+#Portfolio {}
 
 #Portfolio .gallery {
     width: 55vw;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    flex-direction: row;
 }
 
 #Portfolio .gallery .left,
@@ -44,9 +11,7 @@
     padding: .5rem .2rem;
 }
 
-
 #Portfolio .gallery .left img,
 #Portfolio .gallery .right img {
     width: 100%;
-
 }
