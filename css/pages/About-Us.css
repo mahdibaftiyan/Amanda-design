@@ -1,3 +1,74 @@
 #About-Us {
+    width: 100%;
     display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+#About-Us .text-par {
+    margin: 2rem 0;
+    width: 70vw;
+    text-align: center;
+}
+
+#About-Us .title {
+    width: 70vw;
+    font-size: 1.5rem;
+    font-family: sahel;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#About-Us .par {
+    width: 60vw;
+    margin: 1rem auto;
+    color: var(--text-color);
+    line-height: 1.6rem;
+    font-family: samim;
+}
+
+#About-Us .gallery {
+    width: 70vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#About-Us .gallery img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+#About-Us .plan .name-price {
+    font-family: samim;
+    font-size: 1.4rem;
+    margin: 1rem 0;
+    color: var(--text-color);
+}
+
+#About-Us .employee-profile {
+    width: 60vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+#About-Us .employee-profile img {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+#About-Us .employee-profile .description {
+    font-family: sahel;
+    font-size: .9rem;
+    text-align: center;
+    color: var(--text-color);
+    margin: 1rem 0;
+    line-height: 1.5rem;
 }
