@@ -36,10 +36,7 @@
 
 <body>
 
-
-
     <header id="header" class="flex">
-
 
         <nav id="navigation">
 
@@ -48,7 +45,6 @@
 
                 <img src="images/logo.webp" alt="AMANDA PANDRIGE">
 
-
                 <label class="label" for="drop">
                     <i class="fa-solid fa-bars"></i>
                 </label>
@@ -56,7 +52,6 @@
             </div>
 
             <input type="checkbox" id="drop" style="display: none;">
-
 
             <!-- nav links "-->
             <ul class="link-item">
@@ -599,45 +594,60 @@
 
     <footer id="footer" class="flexcolumn">
 
+
+
         <ul class="link-item">
             <span class="Guide">ما چه کاری انجام می دهیم ؟</span>
-            <li class="link-items">
-                <a href="#" data-id="#Home" onclick="changePage(this)" class="link">خانه</a>
-            </li>
-            <li class="link-items">
+            <li class="link-items space">
                 <a href="#" data-id="#Services" onclick="changePage(this)" class="link">خدمات</a>
             </li>
-            <li class="link-items">
+            <li class="link-items space">
                 <a href="#" data-id="#Portfolio" onclick="changePage(this)" class="link">نمونه کار ها</a>
             </li>
-            <li class="link-items">
+            <li class="link-items space">
                 <a href="#" data-id="#Pricing" onclick="changePage(this)" class="link">قیمت گذاری</a>
             </li>
-            <span class="Guide">کجا هستیم ؟</span>
-            <li class="link-items">
-                <a href="#" class="link" data-id="#About-Us" onclick="changePage(this)" class="link">درباره ما</a>
-            </li>
-            <li class="link-items">
-                <a href="#" class="link" data-id="#Contact" onclick="changePage(this)" class="link">تماس با ما</a>
-            </li>
-            <span class="Guide">مشترک شدن در خبرنامه ما</span>
-
         </ul>
 
-        <label>
-            *آدرس ایمیل
-            <input type="text" placeholder="Type your email address">
-        </label>
+        <ul class="link-item">
+            <span class="Guide space">کجا هستیم ؟</span>
+            <li class="link-item spaces">
+                <a href="#" class="link" data-id="#About-Us" onclick="changePage(this)" class="link">درباره ما</a>
+            </li>
+            <li class="link-items space">
+                <a href="#" class="link" data-id="#Contact" onclick="changePage(this)" class="link">تماس با ما</a>
+            </li>
+            <li class="icons icons1 link-items">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </li>
+        </ul>
 
 
-        <div class="btn">
-            <a href="#">ارسال</a>
-        </div>
 
-        <div class="icons">
-            <i class="fa-brands fa-facebook"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-twitter"></i>
+
+
+
+        <div class="container-input">
+
+            <span class="Guide space">مشترک شدن در خبرنامه ما</span>
+
+            <label>
+                *آدرس ایمیل
+                <input type="text" placeholder="Type your email address">
+            </label>
+
+
+            <div class="btn">
+                <a href="#">ارسال</a>
+            </div>
+
+            <div class="icons icons2">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-twitter"></i>
+            </div>
         </div>
 
     </footer>
