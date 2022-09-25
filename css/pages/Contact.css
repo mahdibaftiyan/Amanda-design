@@ -1,3 +1,113 @@
 #Contact {
+    width: 100%;
     display: none;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    justify-items: center;
+    align-items: center;
+}
+
+#Contact .text-par {
+    margin: 2rem 0;
+    width: 70vw;
+    text-align: center;
+}
+
+#Contact .title {
+    width: 70vw;
+    font-size: 1.5rem;
+    font-family: sahel;
+    font-weight: bold;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+#Contact .par {
+    width: 60vw;
+    margin: 1rem auto;
+    color: var(--text-color);
+    line-height: 1.6rem;
+    font-family: samim;
+}
+
+#Contact .text-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1.5rem;
+}
+
+#Contact .text-box span {
+    font-size: 1.3rem;
+    font-family: samim;
+    color: var(--text-color);
+    margin: 1rem 0;
+}
+
+#Contact .text-box p {
+    font-family: sahel;
+    font-size: .8rem;
+    margin: .5rem 0;
+}
+
+#Contact .contactForm {
+    width: 40vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 2rem;
+}
+
+#Contact .contactForm label {
+    width: 100%;
+    text-align: right;
+    color: var(--color-link);
+    font-size: 1.2rem;
+    font-family: samim;
+}
+
+#Contact .contactForm input {
+    width: 100%;
+    display: block;
+    margin: 2rem 0;
+    padding: 1rem .5rem;
+    color: var(--color-link);
+    background-color: var(--input-color);
+    border: none;
+    font-size: .8rem;
+}
+
+#Contact .contactForm textarea {
+    resize: vertical;
+    width: 100%;
+    display: block;
+    margin: 2rem 0;
+    padding: 1rem .5rem;
+    color: var(--color-link);
+    background-color: var(--input-color);
+    border: none;
+    font-size: .8rem;
+
+}
+
+#Contact .contactForm .btn {
+    text-align: center;
+    margin: 1.4rem auto;
+    background-color: var(--bg-title-color);
+    transition: var(--transition);
+    padding: .7rem 1.5rem;
+    cursor: pointer;
+}
+
+#Contact .contactForm .btn a {
+    text-decoration: none;
+    color: var(--color-btn);
+    font-size: 1.2rem;
+    font-family: vazir;
+}
+
+#Contact .contactForm .btn:hover {
+    background-color: var(--hover-color);
 }
