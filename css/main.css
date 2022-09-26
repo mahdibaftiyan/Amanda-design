@@ -60,9 +60,9 @@ body {
 
 /* #main */
 #main {
-    width: 100%;
-    grid-column: 1 /-1;
+    grid-column: 1 /2;
     grid-row: 2/3;
+    width: 100%;
     margin: 0 auto;
     margin-top: 7rem;
 }
