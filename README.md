@@ -1,3 +1,5 @@
 # Amanda-design
 
-# make with css - flex - grid , js
+# make with css and js
+. use grid , flex and git
+
